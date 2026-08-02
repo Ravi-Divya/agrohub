@@ -6,7 +6,6 @@ suggestions, and join live farm streams — free, with no sign-up.
 Built with **Next.js 16 (App Router)**, **React 19**, **Tailwind CSS v4**, the **Vercel AI SDK**,
 and **Groq** vision models.
 
-```
 Live Link:https://agrohub-ravidivya.onrender.com
 
 ## Features
