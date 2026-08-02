@@ -75,20 +75,6 @@ npm run dev
 
 \* Without a key, pages work but analysis returns a clear "not configured" message.
 
-## Deploy to Render
-
-Two options:
-
-**Option A — Blueprint (recommended):** push this repo to GitHub, then in Render
-Dashboard → **New → Blueprint**, connect the repo. `render.yaml` auto-creates the web
-service. Add `GROQ_API_KEY` (and optional `DATABASE_URL`) as env vars.
-
-**Option B — Manual:** create a new **Web Service** pointing at the repo:
-
-- Build command: `npm install && npm run build`
-- Start command: `npm start` (reads the `PORT` Render provides)
-- Environment: add `GROQ_API_KEY`, `GROQ_MODEL=qwen/qwen3.6-27b`
-
 ## Scripts
 
 | Command                | Description                          |
