@@ -6,6 +6,9 @@ suggestions, and join live farm streams — free, with no sign-up.
 Built with **Next.js 16 (App Router)**, **React 19**, **Tailwind CSS v4**, the **Vercel AI SDK**,
 and **Groq** vision models.
 
+---
+
+Live Link:https://agrohub-ravidivya.onrender.com
 ## Features
 
 - **Disease Detection** — upload an image, a video (we extract the best frame automatically),
@@ -58,7 +61,6 @@ cp .env.example .env.local   # add your GROQ_API_KEY
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
 
 ## Environment Variables
 
