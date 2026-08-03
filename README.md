@@ -60,21 +60,6 @@ cp .env.example .env.local   # add your GROQ_API_KEY
 npm run dev
 ```
 
-
-## Environment Variables
-
-| Variable                | Required | Description                                                  |
-| ----------------------- | -------- | ------------------------------------------------------------ |
-| `GROQ_API_KEY`          | Yes*     | Groq key used for AI image analysis (https://console.groq.com/keys) |
-| `GROQ_MODEL`            | No       | Vision model (default `qwen/qwen3.6-27b`, must support image input) |
-| `OPENAI_API_KEY`        | No       | Fallback provider if `GROQ_API_KEY` is not set               |
-| `OPENAI_MODEL`          | No       | OpenAI vision model (default `gpt-4o-mini`)                  |
-| `DATABASE_URL`          | No       | Optional Postgres URL (drizzle schema provided)              |
-| `NEXT_PUBLIC_SITE_URL`  | No       | Canonical URL for SEO (default `https://agrohub.onrender.com`) |
-| `PORT`                  | No       | Server port for `npm start` (default `3000`)                 |
-
-\* Without a key, pages work but analysis returns a clear "not configured" message.
-
 ## Scripts
 
 | Command                | Description                          |
